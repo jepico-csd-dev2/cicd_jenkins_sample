@@ -80,6 +80,8 @@
 #include "nrf_log_ctrl.h"
 #include "nrf_log_default_backends.h"
 
+#include "method.h"
+
 #define APP_BLE_CONN_CFG_TAG            1                                           /**< A tag identifying the SoftDevice BLE configuration. */
 
 #define DEVICE_NAME                     "Nordic_UART"                               /**< Name of device. Will be included in the advertising data. */
@@ -716,6 +718,8 @@ int main(void)
     NRF_LOG_INFO("Debug logging for UART over RTT started.");
     advertising_start();
 
+    NRF_LOG_INFO("test %d,", method_add(1,2));
+    
     // Enter main loop.
     for (;;)
     {

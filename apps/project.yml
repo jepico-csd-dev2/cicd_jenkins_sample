@@ -23,7 +23,7 @@
 
 :paths:
   :test:
-    - +:test/**
+    - +:test/test_method/**
     - -:test/support
   :source:
     - src/**
@@ -97,7 +97,7 @@
       - --redirect _Scanf=_ScanfFull
       - --semihosting
       - --config "C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\generic_cortex.icf"
-      - --map "pca10040\blank\iar\_build\blinky_pca10040.map"
+      - --map "ide\pca10040\s132\iar\_build\ble_app_uart_pca10040_s132.map"
       - -o "${2}"
       - '"${1}"'
 
