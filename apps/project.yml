@@ -7,27 +7,19 @@
 
 :project:
   :use_exceptions: FALSE
-  :use_test_preprocessor: TRUE
+  :use_test_preprocessor: FALSE
   :use_auxiliary_dependencies: TRUE
   :build_root: build
-#  :release_build: TRUE
+  :release_build: FALSE
   :test_file_prefix: test_
-  :which_ceedling: vendor/ceedling
-  :ceedling_version: 0.31.1
-  :default_tasks:
-    - test:all
-
-#:test_build:
-#  :use_assembly: TRUE
-
-#:release_build:
-#  :output: MyApp.out
-#  :use_assembly: FALSE
 
 :environment:
-
-:extension:
-  :executable: .out
+  - :path:
+    - 'C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin'
+    - 'C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin'
+    - #{ENV['PATH']}
+  - :executable:
+    - 'C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\iarbuild.exe'
 
 :paths:
   :test:
@@ -40,9 +32,6 @@
   :libraries: []
 
 :defines:
-  # in order to add common defines:
-  #  1) remove the trailing [] from the :common: section
-  #  2) add entries to the :common: section (e.g. :test: has TEST defined)
   :common: &common_defines []
   :test:
     - *common_defines
@@ -55,30 +44,76 @@
   :mock_prefix: mock_
   :when_no_prototypes: :warn
   :enforce_strict_ordering: TRUE
+  :cexception_include:
   :plugins:
-    - :ignore
+    - :ignore_stateless
     - :callback
+    - :array
+    - :ignore_arg
+    - :expect_any_args
+    - :return_thru_ptr
   :treat_as:
-    uint8:    HEX8
-    uint16:   HEX16
-    uint32:   UINT32
-    int8:     INT8
+    uint8_t:    HEX8
+    uint16_t:   HEX16
+    uint32_t:   UINT32
+    int8_t:     INT8
     bool:     UINT8
+    
+  
+:tools:
+  :test_compiler:
+    :executable: iccarm
+    :name: 'IAR test compiler'
+    :arguments:
+      - -D _DLIB_FILE_DESCRIPTOR=1
+      - -D NRF52832_XXAA
+      - -D BOARD_PCA10040
+      - -D BSP_DEFINES_ONLY
+      - -D CONFIG_GPIO_AS_PINRESET
+      - -D FLOAT_ABI_HARD
+      - -D NRF52
+      - -D NRF52832_XXAA
+      - -D NRF52_PAN_74
+      - --debug
+      - --endian=little 
+      - --cpu=Cortex-M4 
+      - -e
+      - --fpu=VFPv4_SP 
+      - -Ol
+      - --preprocess "build/test/list"
+      - --dlib_config "C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h"
+      - -I"$": COLLECTION_PATHS_TEST_TOOLCHAIN_INCLUDE
+      - -I"$": COLLECTION_PATHS_TEST_SUPPORT_SOURCE_INCLUDE_VENDOR
+      - -o "${2}"
+      - --diag_suppress=Pa050
+      - '"${1}"'
 
-# Add -gcov to the plugins list to make sure of the gcov plugin
-# You will need to have gcov and gcovr both installed to make it work.
-# For more information on these options, see docs in plugins/gcov
-:gcov:
-  :reports:
-    - HtmlDetailed
-  :gcovr:
-    :html_medium_threshold: 75
-    :html_high_threshold: 90
+  :test_linker:
+    :executable: ilinkarm
+    :name: 'IAR test linker'
+    :arguments:
+      - --vfe
+      - --redirect _Printf=_PrintfFull
+      - --redirect _Scanf=_ScanfFull
+      - --semihosting
+      - --config "C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\generic_cortex.icf"
+      - --map "pca10040\blank\iar\_build\blinky_pca10040.map"
+      - -o "${2}"
+      - '"${1}"'
 
-#:tools:
-# Ceedling defaults to using gcc for compiling, linking, etc.
-# As [:tools] is blank, gcc will be used (so long as it's in your system path)
-# See documentation to configure a given toolchain for use
+  :test_fixture:
+    :executable: cspybat
+    :name: 'CSpyBat test runner'
+    :arguments:
+      - '"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armproc.dll"'
+      - '"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armsim2.dll"'
+      - '"${1}"'
+      - --plugin "C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll"
+      - --backend -B
+      - --endian=little
+      - --cpu=Cortex-M4
+      - --fpu=VFPv4_sp
+      - --semihosting
 
 # LIBRARIES
 # These libraries are automatically injected into the build process. Those specified as
@@ -98,5 +133,5 @@
   :enabled:
     - stdout_pretty_tests_report
     - module_generator
-    - raw_output_report
+
 ...
