@@ -2239,6 +2239,9 @@ C:.
 Да          Да      Да  Да  ble_app_uart_pca10040_s132.ewt
 Да          Да      Да  Да  
 Да          Да      Да  ДеДЯnrf52832_xxaa
+Да          Да      Да  Да  Да  .ninja_deps
+Да          Да      Да  Да  Да  .ninja_log
+Да          Да      Да  Да  Да  
 Да          Да      Да  Да  ДдДЯBrowseInfo
 Да          Да      Да  Да      Да  .ninja_deps
 Да          Да      Да  Да      Да  .ninja_log
