@@ -1,6 +1,5 @@
 set IAR_BUILD_PATH=C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\
-set MCLD4P_PATH=C:\Users\jepic\AppData\Local\Jenkins\.jenkins\workspace\%JOB_NAME\apps\
-ide\pca10040\s132\iar\
+set MCLD4P_PATH=C:\Users\jepic\AppData\Local\Jenkins\.jenkins\workspace\%JOB_NAME\apps\ide\pca10040\s132\iar\
 C:
 cd %IAR_BUILD_PATH%
 
