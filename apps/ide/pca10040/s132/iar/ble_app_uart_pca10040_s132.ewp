@@ -486,6 +486,7 @@
                     <state>$PROJ_DIR$\..\..\..\..\..\sdk\modules\nrfx\hal</state>
                     <state>$PROJ_DIR$\..\..\..\..\..\sdk\modules\nrfx\mdk</state>
                     <state>$PROJ_DIR$\..\config</state>
+                    <state>$PROJ_DIR$\..\..\..\..\src</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -939,7 +940,7 @@
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>160</hasPrio>
+                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -1343,6 +1344,9 @@
         <name>Application</name>
         <file>
             <name>$PROJ_DIR$\..\..\..\..\src\main.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\src\method.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\config\sdk_config.h</name>
