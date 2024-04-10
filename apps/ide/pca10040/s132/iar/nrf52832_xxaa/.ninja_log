@@ -1,0 +1,90 @@
+# ninja log v5
+3	2027	7344273680874500	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/None/iar_startup_nrf52.o	6b82aca513b875ac
+7190	8088	7344273740700984	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Segger_RTT/SEGGER_RTT_Syscalls_IAR.o	8738bffcc8ee8233
+7721	9381	7344273749732779	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/UTF8/UTF16 converter/utf.o	242f83bc64a0788a
+4	93	7344276880086942	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/None/iar_startup_nrf52.o	6b82aca513b875ac
+241	5945	7344276934678770	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_util_platform.o	81b1f9863b7ac77d
+6091	6959	7344276946922881	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/UTF8/UTF16 converter/utf.o	a20f45e69f7752ee
+8724	9853	7344276977356711	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/None/system_nrf52.o	84f417add11c8902
+9257	11670	7344276995446608	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_BLE/ble_srv_common.o	234a2b66ade755bc
+11062	12290	7344277001008749	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_assert.o	45f80ad341dc0503
+13538	14478	7344277024467549	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_error.o	6a77acbae4c40a95
+4	97	7344285474810043	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/None/iar_startup_nrf52.o	6b82aca513b875ac
+53	4512	7344285519511775	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_util_platform.o	ca85586ff7c9ba9a
+4387	4960	7344285524013579	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_sortlist.o	9af25f76de6dc4bd
+34	5139	7344285524442620	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_scheduler.o	f410271660d288f
+19	5303	7344285524255186	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_fifo.o	7cb80303420373cb
+4654	5719	7344285529748569	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_strerror.o	770a26952b61c44e
+4853	5938	7344285533797643	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_section_iter.o	63eb394843458424
+5687	6105	7344285534617484	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/UTF8/UTF16 converter/utf.o	81a24e2fe22fc496
+6082	6292	7344285537376100	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Segger_RTT/SEGGER_RTT_Syscalls_IAR.o	a7464a43db9cd701
+5103	6462	7344285537719553	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/retarget.o	699647439e3eb332
+5451	6735	7344285541766185	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Log/nrf_log_backend_serial.o	7cb20571c5fae093
+6604	7481	7344285549210364	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_SoftDevice/nrf_sdh.o	f343891b8f571f3a
+6250	7669	7344285549848708	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Segger_RTT/SEGGER_RTT_printf.o	c5b18613a91f2e47
+7062	7834	7344285550342871	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Log/nrf_log_str_formatter.o	334b10fda75ab1d7
+6879	8009	7344285552147058	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Segger_RTT/SEGGER_RTT.o	ffa9a94fbef35a6b
+6436	8187	7344285551517620	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Log/nrf_log_frontend.o	bf88470b4ee8fef8
+7241	8367	7344285554769912	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Log/nrf_log_default_backends.o	d0196eb4d3f1819e
+5	98	7344285691679470	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/None/iar_startup_nrf52.o	6b82aca513b875ac
+35	454	7344285695826163	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_util_platform.o	ca85586ff7c9ba9a
+80	653	7344285696515254	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_fifo.o	7cb80303420373cb
+244	1010	7344285701378602	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_scheduler.o	f410271660d288f
+19	1211	7344285702131835	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_uart_fifo.o	a4b82bebbf56f443
+53	1393	7344285702141807	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/drv_rtc.o	ed8c4794f03b306f
+67	1579	7344285703455658	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_timer2.o	ed3d291305e31761
+806	1859	7344285709882168	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_sortlist.o	9af25f76de6dc4bd
+614	2038	7344285709991353	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Log/nrf_log_backend_serial.o	7cb20571c5fae093
+1175	2257	7344285713857984	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_strerror.o	770a26952b61c44e
+1552	2432	7344285714039934	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_section_iter.o	63eb394843458424
+1741	2667	7344285717960178	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/retarget.o	699647439e3eb332
+1373	2910	7344285720384811	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Log/nrf_log_backend_rtt.o	6f5d999e17bb8430
+2404	3118	7344285722425907	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Segger_RTT/SEGGER_RTT_printf.o	c5b18613a91f2e47
+2190	3311	7344285723736726	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_SoftDevice/nrf_sdh.o	f343891b8f571f3a
+3070	3491	7344285724622270	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Segger_RTT/SEGGER_RTT_Syscalls_IAR.o	a7464a43db9cd701
+2012	3655	7344285725801322	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Log/nrf_log_frontend.o	bf88470b4ee8fef8
+2578	3888	7344285730159755	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_SoftDevice/nrf_sdh_soc.o	c8b5c5243fa0200d
+3469	4070	7344285730913241	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/UTF8/UTF16 converter/utf.o	81a24e2fe22fc496
+2818	4350	7344285734787410	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Log/nrf_log_default_backends.o	d0196eb4d3f1819e
+3640	4718	7344285738450833	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Segger_RTT/SEGGER_RTT.o	ffa9a94fbef35a6b
+3278	4907	7344285738667390	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_SoftDevice/nrf_sdh_ble.o	76a5e3502b62495a
+3801	5069	7344285739014422	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Log/nrf_log_str_formatter.o	334b10fda75ab1d7
+4228	5368	7344285744951177	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/Board Definition/boards.o	6e59343095b00dfc
+4518	5563	7344285746760444	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/Board Support/bsp.o	8a1a3e79dc38ecdf
+4040	5746	7344285747331024	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/Application/main.o	ee41d58a8528a762
+5216	6173	7344285753009240	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_BLE/ble_conn_params.o	227de4fc89c4b9b5
+5892	6368	7344285753587640	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/None/system_nrf52.o	a3abf3707f07850c
+4873	6536	7344285753177535	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_BLE/ble_conn_state.o	c75b2aec8d6d6658
+5054	6696	7344285753467648	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Drivers/nrf_drv_clock.o	bafe0f34e1996cef
+5534	6874	7344285756021674	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_BLE/ble_advdata.o	9541b88e6ede0afb
+5715	7054	7344285760769448	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/Board Support/bsp_btn_ble.o	adfe44be88adc805
+6521	7419	7344285765479559	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_BLE/ble_link_ctx_manager.o	7ccb1f72568616f1
+6844	7619	7344285766646860	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_BLE/ble_srv_common.o	7696910ec7be7fff
+6681	7801	7344285766815643	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_BLE/nrf_ble_gatt.o	74a9e3b26733d29a
+7026	7973	7344285766433799	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_BLE/nrf_ble_qwr.o	41e4abf2f388d6c5
+6334	8159	7344285768149637	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_BLE/ble_advertising.o	dbe6c6df35b8802f
+7201	8484	7344285776117526	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_BLE_Services/ble_nus.o	106d08a084a9f4e0
+7958	8794	7344285779216347	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Drivers/nrfx_prs.o	97be78010512bfb4
+7591	8957	7344285779246326	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Drivers/nrfx_atomic.o	4e31f53559c84c87
+8311	9207	7344285783344677	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Drivers/nrf_drv_uart.o	a20021f8e5395124
+8628	9398	7344285783884668	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_atomic.o	7f2011b3b80d55a8
+8131	9566	7344285783694661	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Drivers/nrfx_clock.o	9fd63f07bcf2bd63
+7781	9741	7344285786113044	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Drivers/nrfx_gpiote.o	cb8a597d2e7adbba
+9102	9959	7344285790889080	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_assert.o	6df9b6772c379ec3
+8941	10133	7344285791382303	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_atflags.o	2b95d2b6c8092253
+9550	10401	7344285795322542	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/hardfault_implementation.o	8198eab9eeed99d8
+9364	10585	7344285795897607	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_balloc.o	4e76ea2b630c4367
+9711	10762	7344285797877203	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_atfifo.o	40480b2179ca739e
+9892	10994	7344285801186946	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_fprintf.o	7895dd0fccf7e5c5
+10107	11188	7344285802156945	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_ringbuf.o	d9d1c059440d3054
+10910	11571	7344285806964450	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_error_handler_iar.o	d07208bab285ab48
+10553	11779	7344285807861674	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_memobj.o	513d4509fccb9791
+10280	11953	7344285807738937	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_pwr_mgmt.o	5757a476b7b24cb2
+10735	12141	7344285808922622	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/nrf_fprintf_format.o	3c161fe6efa4c05f
+11365	12309	7344285809575156	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_error.o	c75a4b2b5ffb24ce
+12126	12687	7344285818150581	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_error_weak.o	1d00232e639157c2
+11155	12844	7344285818559627	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Libraries/app_button.o	f7ac9842a822fe61
+11937	13260	7344285823887079	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Drivers/nrfx_uarte.o	bb45271ae0d48da6
+11745	13404	7344285823924532	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/nRF_Drivers/nrfx_uart.o	b82afb39d8099d71
+13548	13764	7344285828884769	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/ble_app_uart_pca10040_s132.out	e766b59381a4a5b5
+13827	16761	7344285858962318	C:/Users/jepic/Desktop/CICD_ENV_BUILDING/cicd_jenkins_sample/apps/ide/pca10040/s132/iar/_build/ble_app_uart_pca10040_s132.hex	225796479b8d650
