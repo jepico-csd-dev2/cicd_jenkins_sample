@@ -2,4 +2,4 @@ set MCLD4P_PATH=C:\Users\jepic\AppData\Local\Jenkins\.jenkins\workspace\%JOB_NAM
 C:
 cd %MCLD4P_PATH%
 
-ceedling
+rake
