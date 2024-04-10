@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat "build.bat"
+                bat "apps/jenkins/build.bat"
             }
         }
         stage('unit_test') {
             steps {
-                bat "unit_test.bat"
+                bat "apps/jenkins/unit_test.bat"
             }
         }
         stage('deploy') {
             steps {
-                bat "deploy.bat"
+                bat "apps/jenkins/deploy.bat"
             }
         }
     }
