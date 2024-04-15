@@ -4,7 +4,7 @@ if not exist %MCLD4P_PATH%Debug\Exe\ mkdir %MCLD4P_PATH%Debug\Exe\
 
 
 if exist %MCLD4P_PATH%_build\ble_app_uart_pca10040_s132.hex (
-    move %MCLD4P_PATH%_build\ble_app_uart_pca10040_s132.hex %MCLD4P_PATH%Debug\Exe\ble_app_uart_pca10040_s132_%BUILD_NUMBER%_%BUILD_ID%.hex
+    move %MCLD4P_PATH%_build\ble_app_uart_pca10040_s132.hex %MCLD4P_PATH%Debug\Exe\ble_app_uart_pca10040_s132_%BUILD_DISPLAY_NAME%.hex
     exit 0
 ) else (
     exit 1
