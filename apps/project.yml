@@ -24,9 +24,11 @@
 :paths:
   :test:
     - +:test/test_method/**
+    - +:test/test_common/**
     - -:test/support
   :source:
     - src/**
+    - ../sdk/**
   :support:
     - test/support
   :libraries: []
@@ -45,6 +47,9 @@
   :when_no_prototypes: :warn
   :enforce_strict_ordering: TRUE
   :cexception_include:
+  :treat_inlines:
+    :include
+  :inline_function_patterns: ['static inline __attribute__ \(\(always_inline\)\)']
   :plugins:
     - :ignore_stateless
     - :callback
@@ -57,33 +62,36 @@
     uint16_t:   HEX16
     uint32_t:   UINT32
     int8_t:     INT8
-    bool:     UINT8
-    
-  
+    int16_t:    INT16
+    int32_t:    INT
+    bool:       UINT8
+
 :tools:
   :test_compiler:
     :executable: iccarm
     :name: 'IAR test compiler'
     :arguments:
-      - -D _DLIB_FILE_DESCRIPTOR=1
-      - -D NRF52832_XXAA
+      - -D APP_TIMER_V2
+      - -D APP_TIMER_V2_RTC1_ENABLED
       - -D BOARD_PCA10040
-      - -D BSP_DEFINES_ONLY
       - -D CONFIG_GPIO_AS_PINRESET
       - -D FLOAT_ABI_HARD
       - -D NRF52
       - -D NRF52832_XXAA
       - -D NRF52_PAN_74
+      - -D NRF_SD_BLE_API_VERSION=7
+      - -D S132
       - --debug
       - --endian=little 
       - --cpu=Cortex-M4 
       - -e
       - --fpu=VFPv4_SP 
-      - -Ol
+      - -Ohz
       - --preprocess "build/test/list"
       - --dlib_config "C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h"
       - -I"$": COLLECTION_PATHS_TEST_TOOLCHAIN_INCLUDE
       - -I"$": COLLECTION_PATHS_TEST_SUPPORT_SOURCE_INCLUDE_VENDOR
+      - -D"$": COLLECTION_DEFINES_TEST_AND_VENDOR
       - -o "${2}"
       - --diag_suppress=Pa050
       - '"${1}"'
@@ -93,6 +101,7 @@
     :name: 'IAR test linker'
     :arguments:
       - --vfe
+      - --inline
       - --redirect _Printf=_PrintfFull
       - --redirect _Scanf=_ScanfFull
       - --semihosting

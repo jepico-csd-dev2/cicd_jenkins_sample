@@ -1343,13 +1343,16 @@
     <group>
         <name>Application</name>
         <file>
+            <name>$PROJ_DIR$\..\..\..\..\src\common.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\..\..\..\src\main.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\..\src\method.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\config\sdk_config.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\src\sdk_config.h</name>
         </file>
     </group>
     <group>
